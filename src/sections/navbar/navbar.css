@@ -46,7 +46,7 @@
 
 /* ================================Large Medium========================== */
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .nav_item a{
         padding: 7px 12px;
     }
@@ -63,11 +63,11 @@
     .nav_logo h2{
         font-size: 28px;
     }
-} */
+}
 
 /* ================================Medium========================== */
 
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     #navbar{
         margin: 0 25px;
     }
@@ -92,5 +92,4 @@
         display: flex;
         justify-content: flex-end;
     }
-} */
- 
+}

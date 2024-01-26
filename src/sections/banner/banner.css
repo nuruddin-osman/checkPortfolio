@@ -1,0 +1,145 @@
+#profile{
+    margin: 50px 50px 100px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    overflow: hidden;
+}
+.prifile_content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile_heading{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.profile_heading span{
+    color: #C9C9C9;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.profile_heading h4{
+    color: #C9C9C9;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.profile_title h3{
+    color: #C9C9C9;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.profile_description p{
+    margin: 30px 0 20px;
+    width: 450px;
+    color: #E1E1E1;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+.profile_description a{
+    text-decoration: underline solid gray;
+    text-underline-offset: 5px;
+    color: #ffbd39;
+}
+.profile_pictue{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.profile_images{
+    height: 500px;
+    width: 400px;
+    overflow: hidden;
+}
+.profile_images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.profile_cv{
+    margin-top: 100px;
+    text-align: center;
+}
+.profile_cv a{
+    font-size: 22px;
+    color: #262626;
+    background-color: #ffbd39;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+.profile_cv a:hover{
+    color: #ffbd39;
+    background-color: #262626;
+}
+/* =======================Large Medium============================ */
+@media screen and (max-width: 1024px){
+    .profile_heading span{
+        font-size: 16px;
+    }
+    .profile_heading h4{
+        font-size: 20px;
+    }
+    .profile_title h3{
+        font-size: 36px;
+    }
+    .profile_description p{
+        width: auto;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .profile_images{
+        height: 430px;
+        width: 360px;
+    }
+    .profile{
+        gap: 20px;
+    }
+    .prifile_content {
+        width: 46%;
+    }
+}
+/* =======================Medium============================ */
+@media screen and (max-width: 768px){
+    #profile{
+        margin: 50px 25px 100px;
+    }
+    .prifile_content{
+        width: 100%;
+        order: 2;
+    }
+    .profile{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .profile_pictue{
+        width: 100%;
+        justify-content: center;
+        order: 1;
+    }
+    .profile_images{
+        height: 470px;
+        width: 390px;
+    }
+    .profile_description p{
+        text-align: justify;
+        width: auto;
+    }
+    .profile_title h3{
+        font-size: 34px;
+    }
+}

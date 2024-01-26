@@ -1,0 +1,114 @@
+.about_wrapper{
+    display: flex;
+    gap: 50px;
+}
+.about_content{
+    width: 50%;
+    padding: 0 30px;
+    margin: auto 0;
+}
+.about_content article{
+    text-align: left;
+    font-size: 16px;
+    width: 500px;
+    color: #E1E1E1;
+    font-family: 'Inter', sans-serif;
+    line-height: 26px;
+}
+.about_content a{
+    color: #262626;
+    background-color: #ffbd39;
+    padding: 12px 20px;
+    font-size: 18px;
+    margin-top: 60px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.about_content a:hover{
+    color: #ffbd39;
+    background-color: #262626;
+}
+.about_media{
+    width: 50%;
+}
+.about_image{
+    height: 520px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.about_image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.about_social{
+    width: 100%;
+    background: #1f2c6c;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.about_icon{
+    font-size: 48px;
+    background: #262626;
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =======================Large Medium============================ */
+@media screen and (max-width: 1024px){
+    .about{
+        max-width: 100%;
+        margin: 0 50px;
+    }
+    .about_wrapper {
+        gap: 30px;
+    }
+    .about_content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .about_content article {
+        text-align: justify;
+        width: auto;
+    }
+    .about_image {
+        height: 500px;
+        width: auto;
+    }
+    .about_media {
+        overflow: hidden;
+    }
+}
+/* =======================Medium============================ */
+@media screen and (max-width: 768px){
+    .about{
+        margin: 0 25px;
+    }
+    .about_media{
+        width: auto;
+    }
+    .about_image{
+        height: 520px;
+        width: 400px;
+    }
+    .about_content{
+        width: auto;
+    }
+    .about_wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .about_content a{
+        margin-top: 30px;
+    }
+}

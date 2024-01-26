@@ -17,7 +17,7 @@ const Banner = () => {
                 <div className="profile_description">
                   <p>To establish myself as a Front-end Developer in different local, and international by offering the value/benefit of Brand, Visualization, and Promotion. Eager to contribute creativity and technical skills to dynamic projects through responsive and visually appealing web interfaces. Want to establish myself as a Sr. Web Developer within 4-5 years.
                   </p>
-                  <a src="#" >View my projects</a>
+                  <a href='#' >View my projects</a>
                 </div>
             </div>
             <div className="profile_pictue">
@@ -27,7 +27,7 @@ const Banner = () => {
             </div>
         </div>
         <div className="profile_cv">
-          <a src="#">Download CV</a>
+          <a href='#'>Download CV</a>
         </div>
     </section>
   )

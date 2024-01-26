@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: #e2e8f0;
+}
+a{
+  text-decoration: none;
+  color: #262626;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+}
+ul, ol{
+  list-style-type: none;
+}
+.container{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  width: 1320px;
+  margin: 0 auto;
+  color: #FFF;
+}
+
+/*========================== Common class ================= */
+
+.section_heading{
+  font-family: 'Inter', sans-serif;
+  color: #FFF;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+/*font-family: 'Inter', sans-serif; */
+
+
+/* =======================Large Medium============================ */
+@media screen and (max-width: 1024px){
+  .container{
+    max-width: 100%;
+  }
+}
+/* =======================Medium============================ */
+@media screen and (max-width: 768px){
+  .container{
+      max-width: 100%;
+  }
+  .section_heading{
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+  
+}

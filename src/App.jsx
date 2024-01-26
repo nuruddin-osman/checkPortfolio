@@ -4,6 +4,7 @@ import Background from '../src/assets/images/background.svg'
 import Banner from './sections/banner/Banner'
 import About from './sections/about/About'
 import Skills from './sections/skills/skills'
+import Projects from './sections/projects/Projects'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
             <Banner/>
             <About/>
             <Skills/>
+            <Projects/>
         </div>
     </section>
     </>

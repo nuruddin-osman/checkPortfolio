@@ -3,7 +3,11 @@ import './skill.css'
 
 const Skill = () => {
   return (
-    <div className='amr'></div>
+    <section>
+        <div className="amr">
+            <h3>dfghdkjslh</h3>
+        </div>
+    </section>
   )
 }
 

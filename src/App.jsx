@@ -5,7 +5,7 @@ import Banner from './sections/banner/Banner'
 import About from './sections/about/About'
 import Skill from './sections/skill/Skill'
 import Projects from './sections/projects/Projects'
-import Contact from './sections/contacts/contact'
+import Contact from './sections/contacts/Contact'
 
 const App = () => {
   return (

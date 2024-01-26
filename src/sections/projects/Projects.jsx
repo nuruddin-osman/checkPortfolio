@@ -5,7 +5,7 @@ import Blog from '../../assets/projectGallary/blog.png'
 import Finsweet from '../../assets/projectGallary/finsweet.png'
 import Foodtime from '../../assets/projectGallary/foodTime.png'
 import Resturent from '../../assets/projectGallary/resturent.png'
-import Orebi from '../../assets/projectGallary/Orebi.png'
+import Orebi from '../../assets/projectGallary/orebi.png'
 
 const Projects = () => {
   return (

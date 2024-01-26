@@ -1,0 +1,133 @@
+#skill{
+    margin: 100px 50px;
+}
+.skill_title{
+    font-family: 'Inter', sans-serif;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.skill_description{
+    display: flex;
+    gap: 80px;
+    justify-content: space-between;
+}
+.progress_wrapper{
+    width: 50%;
+}
+.progress_item{
+    margin-bottom: 45px;
+}
+.progress_item h3{
+    font-family: 'Inter', sans-serif;
+    color: #F0F0F0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 6px;
+}
+.progress{
+    height: 15px;
+    width: 100%;
+    background-color: #979797;
+    position: relative;
+}
+.progress_bar{
+    height: 15px;
+    background-color: #ffbd39;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress_bar::after{
+    top: -36px;
+    right: 0;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color: #ffbd39;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.progress_html{
+    width: 80%;
+}
+.progress_html::after{
+    content: '(Intermediate)';
+}
+.progress_javaScript{
+    width: 50%;
+}
+.progress_javaScript::after{
+    content: '(Intermediate)';
+}
+.progress_react{
+    width: 60%;
+}
+.progress_react::after{
+    content: '(Intermediate)';
+}
+.progress_redux{
+    width: 30%;
+}
+.progress_redux::after{
+    content: '(Basic)';
+}
+.progress_css{
+    width: 75%;
+}
+.progress_css::after{
+    content: '(Intermediate)';
+}
+.progress_bootstrap{
+    width: 50%;
+}
+.progress_bootstrap::after{
+    content: '(Intermediate)';
+}
+.progress_tailwind{
+    width: 80%;
+}
+.progress_tailwind::after{
+    content: '(Intermediate)';
+}
+.progress_autoCad{
+    width: 90%;
+}
+.progress_autoCad::after{
+    content: '(Intermediate)';
+}
+
+/* =======================Large Medium============================ */
+@media screen and (max-width: 1024px){
+    .skill_description {
+        gap: 50px;
+    }
+    .progress_bar::after{
+        top: 20px;
+        font-size: 18px;
+    }
+    .progress_item{
+        margin-bottom: 60px;
+    }
+}
+/* =======================Medium============================ */
+@media screen and (max-width: 768px){
+    #skill{
+        margin: 0 25px;
+    }
+    .skill_description{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .progress_wrapper{
+        width: auto;
+    }
+    .progress_bar::after{
+        top: -36px;
+    }
+    .skill_title {
+        font-size: 14px;
+    }
+}

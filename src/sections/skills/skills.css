@@ -1,4 +1,4 @@
-#skill{
+/* #skill{
     margin: 100px 50px;
 }
 .skill_title{
@@ -99,7 +99,7 @@
     content: '(Intermediate)';
 }
 
-/* =======================Large Medium============================ */
+=======================Large Medium============================
 @media screen and (max-width: 1024px){
     .skill_description {
         gap: 50px;
@@ -112,7 +112,7 @@
         margin-bottom: 60px;
     }
 }
-/* =======================Medium============================ */
+=======================Medium============================
 @media screen and (max-width: 768px){
     #skill{
         margin: 0 25px;
@@ -130,4 +130,4 @@
     .skill_title {
         font-size: 14px;
     }
-}
+} */

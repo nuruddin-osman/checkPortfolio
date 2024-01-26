@@ -1,10 +1,10 @@
 import React from 'react'
-import './skills.css'
+// import './skills.css'
 
 const Skills = () => {
   return (
     <section id='skill'>
-        <div className="skils">
+        {/* <div className="skils">
             <div className="section_heading">
                 <h2>Skills</h2>
                 <p className='skill_title'>I am mentioning  my conception of the following topics</p>
@@ -80,7 +80,8 @@ const Skills = () => {
                     </div> 
                 </div>
             </div>
-        </div>
+        </div> */}
+        <h1>Allah</h1>
     </section>
   )
 }

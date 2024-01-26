@@ -1,19 +1,19 @@
 import React from 'react'
-import './projects.css'
-import Agency from '../../assets/projectGallary/agency.png'
-import Blog from '../../assets/projectGallary/blog.png'
-import Finsweet from '../../assets/projectGallary/finsweet.png'
-import Foodtime from '../../assets/projectGallary/foodTime.png'
-import Resturent from '../../assets/projectGallary/resturent.png'
-import Orebi from '../../assets/projectGallary/Orebi.png'
+// import './projects.css'
+// import Agency from '../../assets/projectGallary/agency.png'
+// import Blog from '../../assets/projectGallary/blog.png'
+// import Finsweet from '../../assets/projectGallary/finsweet.png'
+// import Foodtime from '../../assets/projectGallary/foodTime.png'
+// import Resturent from '../../assets/projectGallary/resturent.png'
+// import Orebi from '../../assets/projectGallary/Orebi.png'
 
 const Projects = () => {
   return (
     <section id='project'>
-        <div className="projects">
+        {/* <div className="projects">
             <h2 className='section_heading'>my projects</h2>
             <div className="project">
-                {/* ====================Agency======================== */}
+                ====================Agency========================
                 <div className="project_wrapper">
                     <div className="project_image_wrapper">
                         <div className="projectImage">
@@ -30,7 +30,7 @@ const Projects = () => {
                         <h4>Agency project build with HTML CSS Bootstrap Responsive</h4>
                     </div>
                 </div>
-                {/* ====================Blog======================== */}
+                ====================Blog========================
                 <div className="project_wrapper">
                     <div className="project_image_wrapper">
                         <div className="projectImage">
@@ -47,7 +47,7 @@ const Projects = () => {
                         <h4>Blog project build with HTML CSS Responsive</h4>
                     </div>
                 </div>
-                {/* ====================Finsweet======================== */}
+                ====================Finsweet========================
                 <div className="project_wrapper">
                     <div className="project_image_wrapper">
                         <div className="projectImage">
@@ -64,7 +64,7 @@ const Projects = () => {
                         <h4>Finsweet project build with HTML CSS </h4>
                     </div>
                 </div>
-                {/* ====================Foodtime======================== */}
+                ====================Foodtime========================
                 <div className="project_wrapper">
                     <div className="project_image_wrapper">
                         <div className="projectImage">
@@ -81,7 +81,7 @@ const Projects = () => {
                         <h4>FoodTime project build with HTML CSS Bootstrap Responsive</h4>
                     </div>
                 </div>
-                {/* ====================Resturent======================== */}
+                ====================Resturent========================
                 <div className="project_wrapper">
                     <div className="project_image_wrapper">
                         <div className="projectImage">
@@ -98,7 +98,7 @@ const Projects = () => {
                         <h4>Resturent project build with HTML CSS Responsive</h4>
                     </div>
                 </div>
-                {/* ====================Orebi======================== */}
+                ====================Orebi========================
                 <div className="project_wrapper">
                     <div className="project_image_wrapper">
                         <div className="projectImage">
@@ -116,7 +116,8 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
+        <h1>Amar sonar</h1>
     </section>
   )
 }

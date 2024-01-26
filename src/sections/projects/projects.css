@@ -1,4 +1,4 @@
-#project{
+/* #project{
     margin: 100px 50px;
 }
 .project{
@@ -70,7 +70,7 @@
     margin: 40px 0 20px;
 }
 
-/* ================================Medium========================== */
+================================Medium==========================
 
 @media screen and (max-width: 1024px) {
     .project{
@@ -83,7 +83,7 @@
         width: 330px;
     }
 }
-/* =======================Medium============================ */
+=======================Medium============================
 @media screen and (max-width: 768px){
     #project{
         margin: 100px 25px;
@@ -98,4 +98,4 @@
     .project_image_wrapper{
         height: 380px;
     }
-}
+} */

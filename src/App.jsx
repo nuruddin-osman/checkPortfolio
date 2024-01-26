@@ -3,8 +3,6 @@ import Navbar from './sections/navbar/Navbar'
 import Background from '../src/assets/images/background.svg'
 import Banner from './sections/banner/Banner'
 import About from './sections/about/About'
-import Skills from './sections/skills/skills'
-import Projects from './sections/projects/Projects'
 
 const App = () => {
   return (
@@ -14,8 +12,7 @@ const App = () => {
             <Navbar/>
             <Banner/>
             <About/>
-            <Skills/>
-            <Projects/>
+            
         </div>
     </section>
     </>

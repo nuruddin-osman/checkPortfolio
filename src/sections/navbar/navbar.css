@@ -2,6 +2,9 @@
     margin: 0 50px;
     padding: 10px 0;
 }
+.navbar{
+    position: relative;
+}
 .logo_image{
     display: block;
     height: 70px;
@@ -43,53 +46,41 @@
     color: #ffbd39;
     background: #262626;
 }
+.bars{
+    display: none;
+}
+.menu_bar{
+    font-size: 28px;
+    cursor: pointer;
+}
 
 /* ================================Large Medium========================== */
 
 @media screen and (max-width: 1024px) {
-    .nav_item a{
-        padding: 7px 12px;
-    }
-    .nav_list{
-        gap: 20px;
-    }
-    .logo_image{
-        height: 60px;
-        width: 60px;
-    }
-    .nav_logo{
-        gap: 10px;
-    }
-    .nav_logo h2{
-        font-size: 28px;
-    }
+    
 }
 
 /* ================================Medium========================== */
 
 @media screen and (max-width: 768px){
-    #navbar{
-        margin: 0 25px;
-    }
-    .logo_image{
-        height: 50px;
-        width: 50px;
-    }
-    .nav_logo h2{
-        font-size: 24px;
-    }
     .nav_list{
+        position: absolute;
+        top: -100%;
+        transform: translateY(-100%);
+        right: 0;
         flex-direction: column;
-        gap: 20px;
-        background-color: aqua;
-        width: 150px;
-        align-items: center;
+        background-color: chocolate;
+        width: 100%;
+        height: 250px;
+        opacity: 0;
+        transition: all linear 0.5s;
     }
-    .nav_wrapper{
+    .show{
+        opacity: 1;
+        top: 100%;
+        transform: translateY(0);
+    }
+    .bars{
         display: block;
-    }
-    .nav_menu{
-        display: flex;
-        justify-content: flex-end;
     }
 }

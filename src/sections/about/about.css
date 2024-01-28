@@ -1,3 +1,6 @@
+#about{
+    margin: 100px 0;
+}
 .about_wrapper{
     display: flex;
     gap: 50px;
@@ -66,6 +69,9 @@
 
 /* =======================Large Medium============================ */
 @media screen and (max-width: 1024px){
+    #about{
+        margin: 100px 0;
+    }
     .about{
         max-width: 100%;
         margin: 0 50px;
@@ -91,6 +97,12 @@
 }
 /* =======================Medium============================ */
 @media screen and (max-width: 768px){
+    #about{
+        margin: 100px 0;
+    }
+    .profile_cv {
+        margin-top: 50px;
+    }
     .about{
         margin: 0 25px;
     }

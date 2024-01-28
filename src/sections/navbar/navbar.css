@@ -1,31 +1,24 @@
+
 #navbar{
     margin: 0 50px;
     padding: 10px 0;
 }
 .navbar{
     position: relative;
+    
 }
 .logo_image{
     display: block;
     height: 70px;
-    width: 70px;
+    width: 150px;
+    overflow: hidden;
 }
 .logo_image img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
-.nav_logo{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.nav_logo h2{
-    font-family: 'Inter', sans-serif;
-    color: #FFF;
-    font-size: 32px;
-    font-weight: 700;
-}
 .nav_wrapper{
     display: flex;
     justify-content: space-between;
@@ -38,11 +31,13 @@
 }
 .nav_item a{
     padding: 10px 15px;
-    border-radius: 30px;
-    background-color: #ffbd39;
-    transition: all 0.5s;
+    border-radius: 2px;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    color: #FFF;
 }
 .nav_item a:hover{
+    border: 1px solid #ffbd39;
     color: #ffbd39;
     background: #262626;
 }
@@ -63,6 +58,20 @@
 /* ================================Medium========================== */
 
 @media screen and (max-width: 768px){
+    #navbar{
+        margin: 0 25px;
+    }
+    .logo_image{
+        height: 60px;
+        width: 130px;
+        overflow: hidden;
+    }
+    .nav_item a{
+        padding: 20px 0;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
     .nav_list{
         position: absolute;
         top: -100%;
@@ -70,11 +79,12 @@
         right: 0;
         flex-direction: column;
         background-color: chocolate;
-        width: 100%;
-        height: 250px;
+        width: 140px;
         opacity: 0;
         transition: all linear 0.5s;
+        gap: 0;
     }
+    
     .show{
         opacity: 1;
         top: 100%;

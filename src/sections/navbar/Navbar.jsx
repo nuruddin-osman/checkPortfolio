@@ -19,8 +19,9 @@ const Navbar = () => {
     // },[])
     let menuOpenn = ()=>{
         let navList = document.querySelector('.nav_list')
-        navList.classList.toggle("show")
+        navList.classList.toggle("show");
     }
+
   return (
     <section id='navbar'>
         <div className="navbar">
@@ -29,7 +30,6 @@ const Navbar = () => {
                     <a href="#" className='logo_image'>
                         <img src={Logo} alt="LogoImage" />
                     </a>
-                    <h2>Nuruddin</h2>
                 </div>
                 <div className="nav_menu">
                     <ul className='nav_list'>

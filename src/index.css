@@ -59,5 +59,10 @@ ul, ol{
     font-size: 48px;
     margin-bottom: 50px;
   }
-  
+}
+/* =======================Small============================ */
+@media screen and (max-width: 576px){
+  .section_heading{
+    font-size: 36px;
+  }
 }

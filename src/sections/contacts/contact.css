@@ -140,7 +140,6 @@
     }
     .contact_icon_part{
         gap: 20px;
-        justify-content: space-between;
         width: 100%;
     }
     .sandBtn {
@@ -182,8 +181,13 @@
         box-shadow: 0px 0px 3px 3px lightblue;
     }
     .contact_icon_part{
-        width: 100%;
-        justify-content: space-between;
+        gap: 15px;
+    }
+    .contact_link {
+        font-size: 16px;
+    }
+    .messenger{
+        font-size: 13px;
     }
 }
 /* =======================Small============================ */
@@ -240,8 +244,6 @@
         row-gap: 40px;
     }
     .contact_icon_part{
-        justify-content: space-between;
         gap: 10px;
-        width: 100%;
     }
 }

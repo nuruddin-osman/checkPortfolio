@@ -1,8 +1,9 @@
 import React from 'react'
 import './about.css'
-import { FaFacebookF, FaTwitter, FaInstagram} from "react-icons/fa";
+import { FaFacebookF} from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import AboutImage from '../../assets/images/aboutImage.png'
+import { FiGithub, FiTwitter } from "react-icons/fi";
 
 const About = () => {
   return (
@@ -14,10 +15,18 @@ const About = () => {
               <div className="about_image">
                 <img src={AboutImage} alt="About Image" />
                 <div className="about_social">
-                  <FaFacebookF className='about_icon'/>
-                  <FaTwitter className='about_icon' />
-                  <FaInstagram className='about_icon'/>
-                  <FaLinkedinIn className='about_icon'/>
+                  <a href="https://www.facebook.com/mnos365/">
+                    <FaFacebookF className='about_icon facebook'/>
+                  </a>
+                  <a href="https://twitter.com/NuruddinDev">
+                    <FiTwitter className='about_icon twitter'/>
+                 </a>
+                  <a href="https://github.com/mnosumon">
+                    <FiGithub className='about_icon github' />
+                  </a>
+                  <a href="https://www.linkedin.com/in/md-nuruddin-osman-b78334209/">
+                    <FaLinkedinIn className='about_icon linkedin'/>
+                  </a>
                 </div>
               </div>
             </div>

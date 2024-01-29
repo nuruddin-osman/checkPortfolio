@@ -141,6 +141,16 @@
         margin-top: 10px;
     }
     .progress_bar::after{
-        top: 20px;
+        top: 8px;
+        font-size: 16px;
+    }
+    .progress {
+        height: 10px;
+    }
+    .progress_bar{
+        height: 10px;
+    }
+    .progress_item {
+        margin-bottom: 45px;
     }
 }

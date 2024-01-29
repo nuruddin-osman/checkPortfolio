@@ -21,45 +21,49 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className="contact_icons">
-                   {/* ===================Email===================== */}
-                    <div className="contact_links">
-                        <div className="icon_wrapper">
-                            <a href="#" className='email_icons'>
-                                <MdOutlineMail className='contact_icon'/>
-                            </a>
+                    <div className="contact_icon_part">
+                        {/* ===================Email===================== */}
+                        <div className="contact_links">
+                            <div className="icon_wrapper">
+                                <a href="#" className='email_icons'>
+                                    <MdOutlineMail className='contact_icon'/>
+                                </a>
+                            </div>
+                            <h3>Email</h3>
+                            <h5><a href="#" className='contact_link text_trans'>emnos124@gmail.com</a></h5>
                         </div>
-                        <h3>Email</h3>
-                        <h5><a href="#" className='contact_link text_trans'>emnos124@gmail.com</a></h5>
+                        {/* ===================Messenger===================== */}
+                        <div className="contact_links">
+                            <div className="icon_wrapper">
+                                <a href="#" className='email_icons'>
+                                    <RiMessengerLine className='contact_icon'/>
+                                </a>
+                            </div>
+                            <h3>Messenger</h3>
+                            <h5><a href="#" className='contact_link messenger'>Md Nuruddin Osman Sumon</a></h5>
+                        </div>
                     </div>
-                    {/* ===================Messenger===================== */}
-                    <div className="contact_links">
-                        <div className="icon_wrapper">
-                            <a href="#" className='email_icons'>
-                                <RiMessengerLine className='contact_icon'/>
-                            </a>
+                    <div className="contact_icon_part">
+                        {/* ===================Telegram===================== */}
+                        <div className="contact_links">
+                            <div className="icon_wrapper">
+                                <a href="#" className='email_icons'>
+                                    <PiTelegramLogoLight className='contact_icon'/>
+                                </a>
+                            </div>
+                            <h3>Telegram</h3>
+                            <h5><a href="#" className='contact_link'>@Sumon2121</a></h5>
                         </div>
-                        <h3>Messenger</h3>
-                        <h5><a href="#" className='contact_link messenger'>Md Nuruddin Osman Sumon</a></h5>
-                    </div>
-                    {/* ===================Telegram===================== */}
-                    <div className="contact_links">
-                        <div className="icon_wrapper">
-                            <a href="#" className='email_icons'>
-                                <PiTelegramLogoLight className='contact_icon'/>
-                            </a>
+                        {/* ===================Twitter===================== */}
+                        <div className="contact_links">
+                            <div className="icon_wrapper">
+                                <a href="#" className='email_icons'>
+                                    <FaXTwitter className='contact_icon'/>
+                                </a>
+                            </div>
+                            <h3>Twitter</h3>
+                            <h5><a href="#" className='contact_link'>@NuruddinDev</a></h5>
                         </div>
-                        <h3>Telegram</h3>
-                        <h5><a href="#" className='contact_link'>@Sumon2121</a></h5>
-                    </div>
-                    {/* ===================Twitter===================== */}
-                    <div className="contact_links">
-                        <div className="icon_wrapper">
-                            <a href="#" className='email_icons'>
-                                <FaXTwitter className='contact_icon'/>
-                            </a>
-                        </div>
-                        <h3>Twitter</h3>
-                        <h5><a href="#" className='contact_link'>@NuruddinDev</a></h5>
                     </div>
                 </div>
             </div>

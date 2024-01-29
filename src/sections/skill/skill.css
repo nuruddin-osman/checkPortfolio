@@ -131,3 +131,16 @@
         font-size: 14px;
     }
 }
+/* =======================Small============================ */
+@media screen and (max-width: 576px){
+    #skill{
+        margin: 0 15px;
+    }
+    .skill_title {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .progress_bar::after{
+        top: 20px;
+    }
+}

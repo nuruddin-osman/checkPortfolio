@@ -99,3 +99,15 @@
         height: 380px;
     }
 }
+/* =======================Small============================ */
+@media screen and (max-width: 576px){
+    #project{
+        margin: 100px 15px;
+    }
+    .project_image_wrapper {
+        height: 250px;
+    }
+    .project_wrapper {
+        width: auto;
+    }
+}

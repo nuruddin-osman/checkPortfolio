@@ -164,6 +164,9 @@
     .profile_title h3{
         font-size: 28px;
     }
+    .profile_cv {
+        margin-top: 60px;
+    }
     .profile_cv a {
         font-size: 16px;
         padding: 10px 15px;

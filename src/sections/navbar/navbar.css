@@ -52,7 +52,13 @@
 /* ================================Large Medium========================== */
 
 @media screen and (max-width: 1024px) {
-    
+    .nav_list{
+        gap: 5px;
+    }
+    .nav_item a{
+        padding: 5px 7px;
+        font-size: 14px;
+    }
 }
 
 /* ================================Medium========================== */

@@ -2,11 +2,9 @@
 #navbar{
     margin: 0 50px;
     padding: 10px 0;
-}
-.navbar{
     position: relative;
-    
 }
+
 .logo_image{
     display: block;
     height: 70px;
@@ -18,7 +16,11 @@
     width: 100%;
     object-fit: cover;
 }
-
+.hello{
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+}
 .nav_wrapper{
     display: flex;
     justify-content: space-between;
@@ -66,6 +68,7 @@
 @media screen and (max-width: 768px){
     #navbar{
         margin: 0 25px;
+        height: 70px;
     }
     .logo_image{
         height: 60px;
@@ -79,15 +82,14 @@
     }
     .nav_list{
         position: absolute;
-        top: -100%;
-        transform: translateY(-100%);
+        top: 70px;
         right: 0;
         flex-direction: column;
         background-color: chocolate;
-        width: 140px;
-        opacity: 0;
+        width: 100%;
         transition: all linear 0.5s;
         gap: 0;
+        opacity: 0;
     }
     
     .show{
@@ -105,7 +107,6 @@
 @media screen and (max-width: 576px){
     #navbar{
         margin: 0 15px;
-        padding: 5px 0;
     }
     .logo_image{
         height: 50px;

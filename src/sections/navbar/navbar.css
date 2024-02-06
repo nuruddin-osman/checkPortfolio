@@ -3,6 +3,7 @@
     margin: 0 50px;
     padding: 10px 0;
     position: relative;
+    transition: all  0.7s ease;
 }
 
 .logo_image{
@@ -46,7 +47,7 @@
 .bars{
     display: none;
 }
-.menu_bar{
+.bars{
     font-size: 28px;
     cursor: pointer;
 }
@@ -75,27 +76,21 @@
         width: 130px;
     }
     .nav_item a{
-        padding: 20px 0;
+        padding: 30px 0;
         font-size: 14px;
         width: 100%;
         text-align: center;
+        background-color: chocolate;
+        letter-spacing: 3px;
     }
     .nav_list{
         position: absolute;
         top: 70px;
         right: 0;
+        left: 0;
         flex-direction: column;
-        background-color: chocolate;
-        width: 100%;
-        transition: all linear 0.5s;
-        gap: 0;
-        opacity: 0;
-    }
-    
-    .show{
-        opacity: 1;
-        top: 100%;
-        transform: translateY(0);
+        transition: all  0.7s ease;
+        overflow: hidden;
     }
     .bars{
         display: block;
@@ -113,6 +108,6 @@
         width: 110px;
     }
     .nav_item a{
-        padding: 12px 0;
+        padding: 20px 0;
     }
 }

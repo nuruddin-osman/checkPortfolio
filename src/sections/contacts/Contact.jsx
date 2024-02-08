@@ -1,21 +1,41 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import './contact.css'
 import { MdOutlineMail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { PiTelegramLogoLight } from "react-icons/pi";
 import { FaXTwitter } from "react-icons/fa6";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+        emailjs.sendForm('service_b4s6ixg', 'template_1541ek9', form.current, {
+          publicKey: 'yT_-pDVTrVsOdNtN_',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+          alert("Message send succesfully")
+        );
+    };
+    
   return (
     <section id='contact'>
         <div className="contact">
             <h2 className='section_heading'>contact me</h2>
             <div className="contacts">
                 <div className="contact_form">
-                    <form action="communication" className='form'>
-                        <input className='inputField' type="text" name='name' placeholder='Type your name' required />
-                        <input className='inputField' type="email" name='email' placeholder='Type your email' required />
-                        <input className='inputField' type="text" name='subject' placeholder='Subject'/>
+                    <form ref={form} onSubmit={sendEmail} action="communication" className='form'>
+                        <input id='fullNme' className='inputField' type="text" name='name' placeholder='Type your name' required />
+                        <input id='email_id' className='inputField' type="email" name='email' placeholder='Type your email' required />
+                        {/* <input id='suject' className='inputField' type="text" name='subject' placeholder='Subject'/> */}
                         <textarea className='inputField' name="message" id="areaField" spellCheck="false"  placeholder='Comments' rows="7"></textarea>
                         <button type='submit' className='sandBtn'>Sand message</button>
                     </form>

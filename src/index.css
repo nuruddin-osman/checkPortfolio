@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+html{
   scroll-behavior: smooth;
 }
 body{
@@ -29,6 +31,34 @@ ul, ol{
   color: #FFF;
 }
 
+.to_top{
+  height: 50px;
+  width: 50px;
+  background-color: #ffbd39;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+  
+}
+.scroll_icon {
+  font-size: 30px;
+  animation: gototop 2s linear infinite alternate-reverse;
+  transition: all 0.4s;
+}
+@keyframes gototop{
+  0%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(10px);
+  }
+}
 /*========================== Common class ================= */
 
 .section_heading{

@@ -1,6 +1,7 @@
 import React from 'react'
 import './banner.css'
 import BannerImage from '../../assets/images/banner.png'
+import pdfDownload from '../../assets/images/Nuruddin-Front-end-Developer.pdf'
 
 const Banner = () => {
   return (
@@ -27,7 +28,7 @@ const Banner = () => {
             </div>
         </div>
         <div className="profile_cv">
-          <a href='#'>Download CV</a>
+          <a href={pdfDownload} download>Download CV</a>
         </div>
     </section>
   )

@@ -1,0 +1,27 @@
+.scroll{
+    height: 50px;
+    width: 50px;
+    background-color: #ffbd39;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    transition: all 3s linear;
+}
+.scroll_icon{
+    font-size: 30px;
+    transition: all 3s linear;
+    animation: gototop linear 2s infinite alternate-reverse;
+}
+@keyframes gototop {
+    0%{
+        transform:  translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}

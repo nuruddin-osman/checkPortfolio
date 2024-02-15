@@ -13,8 +13,9 @@ import Scroll from './components/scrollIcon/Scroll'
 const App = () => {
   return (
     <>
-    <section>
+    <section >
         <div className="container" style={{backgroundImage: `url(${Background})`}}>
+
             <Navbar/>
             <Banner/>
             <About/>

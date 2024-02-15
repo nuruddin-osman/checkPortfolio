@@ -30,6 +30,9 @@ ul, ol{
   margin: 0 auto;
   color: #FFF;
 }
+.container_wrapper{
+  position: relative;
+}
 /*========================== Common class ================= */
 
 .section_heading{

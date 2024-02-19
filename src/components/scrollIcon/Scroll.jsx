@@ -16,11 +16,8 @@ useEffect(()=>{
     });
 
 },[])
-if (scoll) {
-    scolRef.current.style.bottom = "30px"
-}else{
-    scolRef.current.style.bottom = "-50px"
-}
+
+
 // let [is200down, setIs200down] = useState(false)
 // let handleIcon = ()=>{
 //     window.scrollTo({top: 0, right: 0, behavior: 'smooth'})

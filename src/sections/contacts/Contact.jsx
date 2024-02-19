@@ -50,7 +50,9 @@ const Contact = () => {
                                 </a>
                             </div>
                             <h3>Email</h3>
-                            <h5><a href="#" className='contact_link text_trans'>emnos124@gmail.com</a></h5>
+                            <h5>
+                                <a href="mailto:emnos124@gmail.com" target="_blank" className='contact_link text_trans'>emnos124@gmail.com</a>
+                            </h5>
                         </div>
                         {/* ===================Messenger===================== */}
                         <div className="contact_links">

@@ -64,6 +64,7 @@
     height: 500px;
     width: 400px;
     overflow: hidden;
+    border-radius: 20px;
 }
 .profile_images img{
     height: 100%;

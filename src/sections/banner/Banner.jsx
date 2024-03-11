@@ -1,6 +1,6 @@
 import React from 'react'
 import './banner.css'
-import BannerImage from '../../assets/images/banner.png'
+import BannerImage from '../../assets/images/banner.jpg'
 import pdfDownload from '../../assets/images/Nuruddin-Front-end-Developer.pdf'
 
 const Banner = () => {
@@ -18,7 +18,7 @@ const Banner = () => {
                 <div className="profile_description">
                   <p>To establish myself as a Front-end Developer in different local, and international by offering the value/benefit of Brand, Visualization, and Promotion. Eager to contribute creativity and technical skills to dynamic projects through responsive and visually appealing web interfaces. Want to establish myself as a Sr. Web Developer within 4-5 years.
                   </p>
-                  <a href='#' >View my projects</a>
+                  <a href='#project' >View my projects</a>
                 </div>
             </div>
             <div className="profile_pictue">

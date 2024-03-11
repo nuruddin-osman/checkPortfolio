@@ -32,7 +32,7 @@ const About = () => {
             </div>
             <div className="about_content">
               <article>I'm a junior front-end developer and I love to code whenever I can. I have a clear understanding of this Frameworks and Libraries, Responsive Web Design, CSS and Styling, JavaScript, Cross-Browser Compatibility, Accessibility. Currently I am working with well known frontend framework like React. Using HTML, CSS, and JavaScript, I have expertise in creating responsive websites</article>
-              <a href="#">contact me</a>
+              <a href="#contact">contact me</a>
             </div>
           </div>
         </div>

@@ -6,6 +6,7 @@ import { FaAngleUp } from "react-icons/fa6";
 const Scroll = () => {
 let [scoll, setscoll] = useState(false)
 let scolRef = useRef()
+
 useEffect(()=>{
     window.addEventListener("scroll", ()=>{
         if (window.scrollY > 300) {
@@ -14,9 +15,10 @@ useEffect(()=>{
             setscoll(false)
         }
     });
-
 },[])
-
+let handleIcon = ()=>{
+    window.scrollTo({top: 0, right: 0, behavior: 'smooth'})
+}
 
 // let [is200down, setIs200down] = useState(false)
 // let handleIcon = ()=>{
@@ -37,10 +39,11 @@ useEffect(()=>{
 // },[])
   return (
     <div>
-       
-       <a href="#" ref={scolRef}  className='scroll'>
+       { scoll &&
+       <span onClick={handleIcon} ref={scolRef}  className='scroll'>
             <FaAngleUp className='scroll_icon'/>
-        </a>
+        </span>
+       }
     </div>
   )
 }

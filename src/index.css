@@ -8,6 +8,7 @@ html{
 }
 body{
   background-color: #e2e8f0;
+  
 }
 a{
   text-decoration: none;
@@ -33,6 +34,9 @@ ul, ol{
 .container_wrapper{
   position: relative;
 }
+/* .bg_img{
+  background-size: cover;
+} */
 /*========================== Common class ================= */
 
 .section_heading{
@@ -48,6 +52,12 @@ ul, ol{
 /*font-family: 'Inter', sans-serif; */
 
 
+/* =======================Large============================ */
+@media screen and (min-width: 1024px){
+  .container{
+    max-width: 100%;
+  }
+}
 /* =======================Large Medium============================ */
 @media screen and (max-width: 1024px){
   .container{

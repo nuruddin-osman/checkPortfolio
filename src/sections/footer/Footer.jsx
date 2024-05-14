@@ -4,10 +4,8 @@ import './footer.css'
 const Footer = () => {
   return (
     <section id="footer">
-      <div className='container'>
-        <div className="footer">
-            <h5 className='copyRight'>Copyright &copy;2024 All rights reserved | Powered by Dev</h5>
-        </div>
+      <div className="footer container">
+          <h5 className='copyRight'>Copyright &copy;2024 All rights reserved | Powered by Dev</h5>
       </div>
     </section>
   )

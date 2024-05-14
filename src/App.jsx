@@ -14,8 +14,7 @@ const App = () => {
   return (
     <>
     <section style={{backgroundImage: `url(${Background})`}}>
-        <div className="container">
-
+        <div className="container" >
             <Navbar/>
             <Banner/>
             <About/>
@@ -25,6 +24,7 @@ const App = () => {
             <Contact/>
             
             <Scroll/>
+            
         </div>
         <Footer/>
     </section>

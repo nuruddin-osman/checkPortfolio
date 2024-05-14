@@ -13,8 +13,8 @@ import Scroll from './components/scrollIcon/Scroll'
 const App = () => {
   return (
     <>
-    <section >
-        <div className="container" style={{backgroundImage: `url(${Background})`}}>
+    <section style={{backgroundImage: `url(${Background})`}}>
+        <div className="container">
 
             <Navbar/>
             <Banner/>
@@ -23,9 +23,10 @@ const App = () => {
             <Projects/>
             <Education/>
             <Contact/>
-            <Footer/>
+            
             <Scroll/>
         </div>
+        <Footer/>
     </section>
     </>
   )

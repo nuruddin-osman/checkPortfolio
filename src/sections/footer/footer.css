@@ -1,9 +1,9 @@
 #footer{
-    margin-top: 80px;
+    margin-top: 80px; 
+    background-color: #979797;
 }
 .copyRight{
-    padding: 20px 15px;
-    background-color: #979797;
+    padding: 20px;
     color: #000;
     font-size: 14px;
     font-family: 'Inter', sans-serif;

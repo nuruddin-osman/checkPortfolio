@@ -4,7 +4,7 @@ import Agency from '../../assets/projectGallary/agency.png'
 import Blog from '../../assets/projectGallary/blog.png'
 import Finsweet from '../../assets/projectGallary/finsweet.png'
 import Foodtime from '../../assets/projectGallary/foodTime.png'
-import Resturent from '../../assets/projectGallary/resturent.png'
+import Crypto from '../../assets/projectGallary/crypto.png'
 import Orebi from '../../assets/projectGallary/orebi.png'
 
 const Projects = () => {
@@ -85,17 +85,17 @@ const Projects = () => {
                 <div className="project_wrapper">
                     <div className="project_image_wrapper">
                         <div className="projectImage">
-                            <img src={Resturent} alt="Resturent Picture"/>
+                            <img src={Crypto} alt="Resturent Picture"/>
                         </div>
                         <div className="liveDemo">
                             <div className="links">
-                                <a href="https://mnosumon.github.io/Resturent/">Live Demo</a>
-                                <a href="https://github.com/mnosumon/Resturent">Github</a>
+                                <a href="https://github.com/mnosumon/crypto-1">Live Demo</a>
+                                <a href="https://crypto1project.netlify.app/">Github</a>
                             </div>
                         </div>
                     </div>
                     <div className="description">
-                        <h4>Resturent project build with HTML CSS Responsive</h4>
+                        <h4>Crypto project build on ReactJs and reduxJs with Responsive</h4>
                     </div>
                 </div>
                 {/* ====================Orebi======================== */}

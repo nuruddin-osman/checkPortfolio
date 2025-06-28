@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
-import AboutImage from "../../assets/images/aboutImage.png";
+import AboutImage from "../../assets/images/aboutImage.jpg";
 import { FiGithub, FiTwitter } from "react-icons/fi";
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
                 <a href="https://twitter.com/NuruddinDev">
                   <FiTwitter className="about_icon twitter" />
                 </a>
-                <a href="https://github.com/mnosumon">
+                <a href="https://github.com/nuruddin-osman">
                   <FiGithub className="about_icon github" />
                 </a>
                 <a href="https://www.linkedin.com/in/md-nuruddin-osman-b78334209/">

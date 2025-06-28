@@ -2,7 +2,7 @@ import React from "react";
 import "./projects.css";
 import Agency from "../../assets/projectGallary/agency.png";
 import ChattingApp from "../../assets/projectGallary/chattingApp.png";
-import Finsweet from "../../assets/projectGallary/finsweet.png";
+import Naturemade from "../../assets/projectGallary/naturemade.png";
 import GreenAmbassador from "../../assets/projectGallary/greenAmbassador.png";
 import Crypto from "../../assets/projectGallary/crypto.png";
 import Orebi from "../../assets/projectGallary/orebi.png";
@@ -22,7 +22,7 @@ const Projects = () => {
               <div className="liveDemo">
                 <div className="links">
                   <a href="https://neon-kheer-a6e3c7.netlify.app/">Live Demo</a>
-                  <a href="https://github.com/mnosumon/chatting-application">
+                  <a href="https://github.com/nuruddin-osman/chatting-application">
                     Github
                   </a>
                 </div>
@@ -36,16 +36,41 @@ const Projects = () => {
               </h4>
             </div>
           </div>
+          {/* ====================Naturemade ecommerce======================== */}
+          <div className="project_wrapper">
+            <div className="project_image_wrapper">
+              <div className="projectImage">
+                <img src={Naturemade} alt="Naturemade Picture" />
+              </div>
+              <div className="liveDemo">
+                <div className="links">
+                  <a href="https://naturmade.netlify.app/">Live Demo</a>
+                  <a href="https://github.com/nuruddin-osman/naturmade-ecommerce">
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="description">
+              <h4>
+                Naturemade ecommerce
+                <br />
+                build with Next.js and all content are dynamic
+              </h4>
+            </div>
+          </div>
           {/* ====================Crypto======================== */}
           <div className="project_wrapper">
             <div className="project_image_wrapper">
               <div className="projectImage">
-                <img src={Crypto} alt="Resturent Picture" />
+                <img src={Crypto} alt="Crypto Picture" />
               </div>
               <div className="liveDemo">
                 <div className="links">
                   <a href="https://crypto1project.netlify.app/">Live Demo</a>
-                  <a href="https://github.com/mnosumon/crypto-1">Github</a>
+                  <a href="https://github.com/nuruddin-osman/crypto-1">
+                    Github
+                  </a>
                 </div>
               </div>
             </div>
@@ -55,23 +80,7 @@ const Projects = () => {
               </h4>
             </div>
           </div>
-          {/* ====================Finsweet======================== */}
-          <div className="project_wrapper">
-            <div className="project_image_wrapper">
-              <div className="projectImage">
-                <img src={Finsweet} alt="Finsweet Picture" />
-              </div>
-              <div className="liveDemo">
-                <div className="links">
-                  <a href="https://mnosumon.github.io/finsweet/">Live Demo</a>
-                  <a href="https://github.com/mnosumon/finsweet">Github</a>
-                </div>
-              </div>
-            </div>
-            <div className="description">
-              <h4>Finsweet project build with HTML CSS </h4>
-            </div>
-          </div>
+
           {/* ====================GreenAmbassador======================== */}
           <div className="project_wrapper">
             <div className="project_image_wrapper">
@@ -83,7 +92,7 @@ const Projects = () => {
                   <a href="https://dazzling-shortbread-062827.netlify.app/">
                     Live Demo
                   </a>
-                  <a href="https://github.com/mnosumon/greenambassador">
+                  <a href="https://github.com/nuruddin-osman/greenambassador">
                     Github
                   </a>
                 </div>
@@ -123,7 +132,7 @@ const Projects = () => {
               <div className="liveDemo">
                 <div className="links">
                   <a href="https://agencybts.netlify.app/">Live Demo</a>
-                  <a href="https://github.com/mnosumon/agency">Github</a>
+                  <a href="https://github.com/nuruddin-osman/agency">Github</a>
                 </div>
               </div>
             </div>
